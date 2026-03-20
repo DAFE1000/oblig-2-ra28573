@@ -3,3 +3,9 @@
 ﻿# DAFE1000-oblig-template
 
 <Replace with full name and OsloMet email address>
+<Rajaa El fajli  raelf6164@oslomet.no>
+
+
+forklaring for oppgaven:
+
+
