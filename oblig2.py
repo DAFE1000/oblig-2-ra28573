@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import fsolve 
 
@@ -25,7 +25,7 @@ print(f"y_topp = {y_topp:.6f}")
 x = np.linspace(-4, 10, 500)
 y = f(x)
 
-plt.figure(figsize=8,5))
+plt.figure(figsize=(8,5))
 plt.plot(x, y, label=r'$f(x)=e^{-x/4}\arctan(x)$')
 plt.plot(x_topp, y_topp, 'ro' , label=f'Toppunkt ({x_topp:.4f}, {y_topp:.4f})')
 plt.xlabel('x')

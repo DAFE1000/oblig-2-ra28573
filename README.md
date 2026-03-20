@@ -7,5 +7,39 @@
 
 
 forklaring for oppgaven:
+vi har funksjonen:
+f(x) = e^-x/4 arctan(x)
+
+vi har:
+arctan(x) = tan^-1(x)
+
+
+jeg skal bruke produktregelen og få den deriverte:
+f'(x) = e^-x/4(1/1+x^2 - 1/4 arctan(x))
+f'(x) = e^-x/4.1/1+x^2 - 1/4 e ^-x/4. arctan(x)
+faktoriserer:
+f'(x) = e^-x/4(1/1+x^2-1/4arctan(x))
+
+finne et toppunkt:
+et toppunkt skjer når den deriverte er lik 0
+f'(x) = 0 
+siden e^-x/4 >0 må:
+1/1+x^2 -1/4 arctan(x)=0
+ganger med 4:
+4/1+x^2 -arctan(x)=0
+omskriver til :
+arctan(x) - 4/x^2+1 =0
+løse ligningen :
+denne ligningen kan ikke løses eksakt så derfor finner vi løsning numerisk 
+x_topp = 1.690708
+y_topp = 0.679322 # på terminalen i python 
+
+f(x) = ca 1.6907
+f(1.6907) = 0.6793
+
+Toppunktet er :
+(1.6907, 0.6793)
+
+Dette er  et toppunkt fordi før punktet f'(x) >0 funksjonen øker og etter punktet f'(x) <0 funksjonen minker ( se på bildet inni eksamples mappe).
 
 
